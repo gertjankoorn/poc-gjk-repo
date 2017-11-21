@@ -3,10 +3,10 @@
         <title>Nieuwe Deploy</title>
     </head>
     <body>
-        <h1>Deploy uit github9</h1>
+        <h1>Deploy uit github10</h1>
         <h2>IP: 
         <?php
-            echo $_SERVER['REMOTE_ADDR'];
+            echo $_SERVER['HTTP_CLIENT_IP']?:($_SERVER['HTTP_X_FORWARDED_FOR']?:$_SERVER['REMOTE_ADDR']);
         ?>
         </h2>
     </body>
