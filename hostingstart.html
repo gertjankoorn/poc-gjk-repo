@@ -4,6 +4,11 @@
     </head>
     <body>
         <h1>Deploy uit github6</h1>
-        <h2>IP: <?php echo getHostByName(getHostName()); ?></h2>
+        <h2>IP: 
+        <?php
+            $myIp = getHostByName(getHostName());
+            echo $myIp;
+        ?>
+        </h2>
     </body>
 </html>
