@@ -3,10 +3,10 @@
         <title>Nieuwe Deploy</title>
     </head>
     <body>
-        <h1>Deploy uit github11</h1>
+        <h1>Deploy uit github12S</h1>
         <h2>IP: 
         <?php
-            echo "TEST";
+            echo $_SERVER['REMOTE_ADDR'];
         ?>
         </h2>
     </body>
