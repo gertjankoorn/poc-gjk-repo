@@ -3,11 +3,10 @@
         <title>Nieuwe Deploy</title>
     </head>
     <body>
-        <h1>Deploy uit github6</h1>
+        <h1>Deploy uit github8</h1>
         <h2>IP: 
         <?php
-            $myIp = getHostByName(getHostName());
-            echo $myIp;
+            echo $_SERVER['REMOTE_HOST'];
         ?>
         </h2>
     </body>
