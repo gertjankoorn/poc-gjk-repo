@@ -13,7 +13,7 @@
 </script>
     </head>
     <body>
-        <h1>Deploy uit github met logging</h1>
+        <h1>Deploy uit github met logging en unieke id</h1>
         <h2>IP: 
         <?php
             echo $_SERVER['REMOTE_ADDR'];
