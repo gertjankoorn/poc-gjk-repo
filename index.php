@@ -17,6 +17,7 @@
         <h2>IP: 
         <?php
             echo $_SERVER['REMOTE_ADDR'];
+            echo $ENV{SERVER_SIGNATURE}
         ?>
         </h2>
     </body>
