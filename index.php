@@ -16,7 +16,7 @@
         <h1>Deploy uit github met logging en unieke id2</h1>
         <h2>IP: 
         <?php
-            echo $_SERVER['REMOTE_ADDR'];
+            echo $_SERVER['SERVER_ADDR'];
             echo $ENV{SERVER_SIGNATURE}
         ?>
         </h2>
