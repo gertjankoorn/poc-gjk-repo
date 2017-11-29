@@ -14,7 +14,6 @@
     </head>
     <body>
         <h1>Deploy uit github met logging en unieke id2</h1>
-        <h2>Hallo Tom</h2>
         <h2>IP: 
         <?php
             echo $_SERVER['SERVER_ADDR'];
